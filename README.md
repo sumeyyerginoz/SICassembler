@@ -27,5 +27,12 @@ Eğer komut opcodeSIC kümesinde tanımlı bir geçerli komut ise:
 Etiket sembol tablosunda yoksa (ve komut "START" değilse), symbolTable sözlüğüne eklenir ve bellek adresi (location) atanır. 
  
 Komuta bağlı olarak location değeri güncellenir (WORD, RESW, RESB, BYTE gibi durumlar için). 
- 
-Son olarak, symbolTable sözlüğündeki semboller ve bellek adresleri symtab.txt dosyasına yazılır. Ayrıca sembol tablosu çıktısı ekrana da yazdırılır.
+ <pre>
+Son olarak, symbolTable sözlüğündeki semboller ve bellek adresleri symtab.txt dosyasına yazılır.
+
+<img width="545" alt="Ekran Resmi 2024-04-04 23 36 54" src="https://github.com/sumeyyerginoz/SICassembler/assets/112480236/db5d5f49-5627-4c49-aaf9-e726f1adfa2c">
+<pre>
+Ayrıca sembol tablosu çıktısı ekrana da yazdırılır.
+<bre>
+<img width="545" alt="Ekran Resmi 2024-04-04 23 37 20" src="https://github.com/sumeyyerginoz/SICassembler/assets/112480236/a830dc3a-ae43-4a12-beec-4aa6769f7314">
+</pre>
